@@ -58,6 +58,7 @@ span {
   flex-direction: column;
   background-color: rgb(237, 237, 237);
   border-radius: 10px;
+  border: 10px solid green;
 }
 
 /* On mouse-over, add a deeper shadow */
