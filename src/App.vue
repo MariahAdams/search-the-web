@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>Pok&eacutemon Search</h1>
     <SearchControl :onSearch="handleSearch"/>
     <Loading :loading="loading"/>
     <PokemonList :pokemon="pokemon"/>
@@ -50,6 +49,10 @@ export default {
 }
 
 body {
-  background-color: rgb(204, 227, 235);
+  background-image: url('https://cdn-images-1.medium.com/max/1600/1*HmJQ3auSA_TivUEALJNq1Q.png');
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed;
 }
+
 </style>
